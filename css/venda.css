@@ -1,0 +1,311 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+header{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(234, 234, 234, .8);
+	z-index: 2;
+    position: relative;
+}
+header .container{
+   position: relative;
+}
+header .container hr{
+	position: absolute;
+    width: 1360px;
+    margin-left: -426px;
+    margin-top: 16px;
+    border-color: #d8d5d5;
+}
+header #logotipo{
+	position: absolute;
+    top: -72px;
+    right: 1090px;
+    z-index: 3;
+    max-width: 140px;
+    max-height: 140px;
+    width: auto;
+    height: auto;
+}
+#menu {
+	margin: 12px 0;
+}
+#menu li {
+	display: inline-block;
+	font-family: "OpenSans";
+}
+#menu li a {
+	color: #000;
+	font-size: 13px;
+	padding: 10px 25px;
+	font-weight: bold;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 0px;
+}
+.cliente {
+	font-family: 'OpenSans';
+	width: 410px;
+	margin-top: 50px;
+	margin-left: 130px;
+	position: absolute;
+}
+.codcliente {
+	font-family: 'OpenSans';
+	width: 340px;
+	margin-top: 50px;
+    margin-left: -50px;
+	position: absolute;
+}
+.codproduto {
+	font-family: 'OpenSans';
+	width: 340px;
+	margin-top: 100px;
+    margin-left: -50px;
+	position: absolute;
+}
+.produto {
+	font-family: 'OpenSans';
+	width: 340px;
+	margin-top: 100px;
+    margin-left: 140px;
+	position: absolute;
+}
+.quantidade {
+	font-family: 'OpenSans';
+	width: 340px;
+	margin-top: 100px;
+    margin-left: 300px;
+	position: absolute;
+}
+.buttom{
+	font-family: 'OpenSans';
+    width: 340px;
+	margin-top: 99px;
+    margin-left: 440px;
+	position: absolute;
+}
+.buttom2{
+	font-family: 'OpenSans';
+    width: 340px;
+	margin-top: 350px;
+    margin-left: 365px;
+	position: absolute;
+}
+.datacasamento{
+	font-family: 'OpenSans';
+    width: 340px;
+    margin-top: 300px;
+    margin-left: -45px;
+    position: absolute;
+}
+.dataentrega{
+	font-family: 'OpenSans';
+    width: 340px;
+    margin-top: 300px;
+    margin-left: 270px;
+    position: absolute;
+}
+.form-control{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-width: 1px;
+	border-radius: 0px;	
+	border-color: #000;
+	height: 30px;
+    width: 150px;
+    font-size: 12px;
+    margin-top: -30px;
+	margin-left: 140px;
+	position: absolute;
+}
+.form-control2{
+	border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    border-radius: 0px;
+    border-color: #000;
+    height: 30px;
+    width: 130px;
+    font-size: 12px;
+    margin-top: -5px;
+    margin-left: 12px;
+    position: absolute;
+}
+.form-control3{
+	border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 1px;
+    border-radius: 0px;
+    border-color: #000;
+	position: absolute;
+	width: 20px;
+	margin-left: -32px;
+    margin-top: -1px;
+}
+.form-control4{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-width: 1px;
+	border-radius: 0px;
+	border-color: #000;
+	height: 30px;
+	width: 80px;
+	font-size: 12px;
+	margin-top: -5px;
+	margin-left: 12px;
+	position: absolute;
+}
+h3{
+	font-size: 15px;
+    margin-top: 354px;
+    margin-left: 50px;
+    position: absolute;
+}
+.preco{
+	font-family: 'OpenSans';
+    width: 340px;
+    margin-top: 350px;
+    margin-left: 215px;
+    position: absolute;
+}
+.desconto{
+	font-family: 'OpenSans';
+    width: 340px;
+    margin-top: 350px;
+    margin-left: 150px;
+    position: absolute;
+}
+img{
+	position: absolute;	
+    vertical-align: middle;
+    margin-left: 700px;
+    margin-top: 70px;
+    height: 280px;
+}
+section .container hr {
+    margin-top: 30px;
+    margin-bottom: 90px;
+    border: 0;
+    border-top: 370px solid #000;
+    width: 1px;
+    border-radius: 100%;
+}
+section .table{
+	position: absolute;
+	width: 40px;
+	margin-top: 200px;
+}
+footer {
+	margin-top: -45px;
+}
+footer .row{
+	width: 100%;
+	margin-left: 0;
+}
+footer .row p{
+	line-height: 55px;
+	margin-bottom: 0;
+}
+footer .row-cinza-claro{
+	height: 240px;
+	background-color: #171F26;
+}
+footer .col-links,
+footer .col-contato{
+	margin-top: 30px;
+	margin-left: 125px;
+}
+footer .row-cols h4 {
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: #FFF;
+	padding-bottom: 17px;
+	border-bottom: #242D37 1px solid;
+}
+footer .row-cols time {
+	color: #FDE092;
+	font-family: Arial;
+	font-size: 14px;
+}
+footer .col-links a {
+	color: #FFF;
+	font-family: Arial;
+	font-size: 14px;
+}
+footer .col-links .fa {
+	margin: 0 6px;
+}
+footer .col-contato address {
+	color:#666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+footer .col-contato address span {
+	display: inline-block;
+}
+footer .col-contato address i {
+	position: relative;
+	top: -14px;
+}
+footer .col-contato i {
+	color: #9B9B9B;
+	font-size: 20px;
+	margin: 0 6px;
+}
+footer .col-contato a {
+	color: #666;
+}
+footer .col-contato p {
+	line-height: 20px;
+}
+footer .list-socials {
+	margin-top: 4px;
+}
+footer .list-socials li {
+	display: inline-block;
+	margin-right: 8px;
+}
+footer .list-socials a {
+	display: block;
+	border: #9B9B9B 1px solid;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 14px;
+	text-align: center;
+}
+footer .list-socials i {
+	font-size: 16px;
+	margin: 7px auto;
+}
+table{
+	margin-top: 150px;
+    margin-left: 25px;
+	width: 410px;
+	border-width: 1px;
+	border-style: solid;
+	position: absolute;
+	padding: 2px;
+}
+td{
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+}
+th{
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+	padding: 1px;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Akuarela Arte e Cores - Cadastro</title>		
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/venda.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<a href="home.html"><img id="logotipo" src="img/akuarela-logo2.png" alt="Logotipo"></a>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<nav id="menu" class="pull-right">
+						<ul class="list-unstyled">
+							<li><a href="login.html">LOGIN</a></li>
+							<li><a href="cadastrar.html">CADASTRAR CLIENTE</a></li>
+							<li><a href="cadastrarproduto.html">CADASTRAR PRODUTO</a></li>
+							<li><a href="#">EFETUAR VENDA</a></li>
+							<li><a href="#">VISUALIZAR/ALTERAR VENDA</a></li>
+							<hr>
+						</ul>	
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class="container">
+				<div class="codcliente">
+					<label for="codcliente">Código do Cliente</label>
+					<select name="codcliente" id="codcliente">
+						<option value="Diego Spinosa">1</option>
+						<option value="Karine" selected>2</option>
+						<option value="Jéssica">3</option>
+					</select>					 
+				</div>
+				<div class="cliente">
+					<label for="cliente">Cliente</label>
+					<select name="cliente" id="cliente" style="width: 320px">
+						<option value="1">Diego Spinosa</option>
+						<option value="2" selected>Karine</option>
+						<option value="3">Jéssica</option>
+					</select>					 
+				</div>	
+				<div class="codproduto">
+					<label for="codcliente">Código do Produto</label>
+					<select name="codcliente" id="codcliente">
+						<option value="1">1</option>
+						<option value="2" selected>2</option>
+						<option value="3">3</option>
+					</select>					 
+				</div>
+				<div class="produto">
+					<label for="cliente">Produto</label>
+					<select name="cliente" id="cliente">
+						<option value="1">Caixa 1</option>
+						<option value="2" selected>Caixa 2</option>
+						<option value="3">Caixa 3</option>
+					</select>					 
+				</div>	
+				<div class="quantidade">
+					<label for="quantidade">Quantidade</label>
+					<select name="quantidade" id="quantidade">
+						<option value="1">1</option>
+						<option value="2" selected>2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>					 
+				</div>	
+				<div class="datacasamento">
+						<label for="datacasamento">Data do Casamento</label>
+						<input type="date" name="datacasamento" id="datacasamento" class="form-control" required tabindex="2">						 
+				</div>
+				<div class="dataentrega">
+						<label for="dataentrega">Data da Entrega</label>
+						<input type="date" name="dataentrega" id="dataentrega" class="form-control2" required tabindex="2">						 
+				</div>
+				<div class="preco">
+						<label for="preco">R$</label>
+						<input type="float" name="preco" id="preco" class="form-control4" required tabindex="2">						 
+				</div>			
+				<div class="desconto">
+						<label for="desconto">%</label>
+						<input type="int" name="desconto" id="desconto" class="form-control3" required tabindex="2">						 
+				</div>
+				<div class="buttom">
+					<button type="submit">Adicionar</button>
+				</div>
+				<div class="buttom2">
+					<button type="submit">Finalizar</button>
+				</div>
+				<h3><b>Desconto</b></h3>
+				<div class="logotipo">
+					<img id="logotipo" src="img/logo.png" alt="Logotipo">
+				</div>
+				<table>
+					<thead>
+						<th>Cod. Produto</th>
+						<th>Nome do Produto</th>
+						<th>Qntd</th>
+						<th>Preço Unid.</th>
+						<th>Preço Total</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Caixa 1</td>
+							<td>2</td>
+							<td>30</td>
+							<td>60</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Caixa 3</td>
+							<td>1</td>
+							<td>40</td>
+							<td>40</td>
+						</tr>
+					</tbody>					
+				</table>
+				<hr>
+			</div>
+		</section>		
+		<footer>
+			<div class="row row-cinza-claro">
+				<div class="container">
+					<div class="row row-cols">
+						<div class="col-md-4 col-links">
+							<h4>LINKS</h4>
+							<ul class="list-unstyled">
+									<li><a href="#"><i class="fa fa-angle-right"></i>Tickets</a></li>
+									<li><a href="#"><i class="fa fa-angle-right"></i>News</a></li>
+									<li><a href="#"><i class="fa fa-angle-right"></i>Schedule</a></li>
+							</ul>
+						</div>
+						<div class="col-md-4 col-contato">
+							<h4>CONTATO</h4>
+							<address>
+										<i class="fa fa-map-marker"></i> <span>Rua Virgílio Brigido, 1249<br/>Fortaleza/CE</span>
+									</address>
+
+									<p><a href="tel:1855ORLCITY"><i class="fa fa-phone"></i>98529-1238</a></p>
+
+									<ul class="list-unstyled list-socials">
+										<li>
+											<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+										</li>
+										<li>
+											<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+										</li>
+										<li>
+											<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+										</li>
+										<li>
+											<a href="#" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+										</li>
+									</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
